@@ -4,28 +4,32 @@ NIM=2509106080
 print("Selamat datang di program Pembelian Tiket Bioskop XX0")
 print()
 
+print("Silahkan login terlebih dahulu:")
 for i in range(3):
-    print("Silahkan login terlebih dahulu:")
     username=(str(input("Masukkan username: ")))
     password=(int(input("Masukkan password: ")))
     if username==nama and password==NIM:
         print()
         print("Selamat anda berhasil login!")
-        print()
-        print("=============== OPSI PEMBAYARAN =================")
-        print("1. Tiket Reguler dengan Harga per tiket Rp 50.000")
-        print("2. Tiket VIP dengan Harga per tiket Rp 100.000")
-        print("3. Tiket VVIP dengan Harga per tiket Rp 150.000")
-        print("4. Keluar dari program")
-        print(50*"=")
-        print()
         break
     elif username==nama or password==NIM:
         print("Error: Format akun salah!")
     else:
         print("Error: Gagal login!")
+else:
+    print("Percobaan login telah habis!")
+    exit()
+
 
 while True:
+    print()
+    print("=============== OPSI PEMBAYARAN =================")
+    print("1. Tiket Reguler dengan Harga per tiket Rp 50.000")
+    print("2. Tiket VIP dengan Harga per tiket Rp 100.000")
+    print("3. Tiket VVIP dengan Harga per tiket Rp 150.000")
+    print("4. Keluar dari program")
+    print(50*"=")
+    print()
     opsi=int(input("Silahkan pilih opsi pembayaran: "))
     if opsi==1 or opsi==2 or opsi==3:
         jumlah=int(input("Silahkan masukkan jumlah tiket yang ingin dibeli: "))
