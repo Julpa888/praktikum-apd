@@ -22,14 +22,27 @@
 # for i in 123: #error
 #     print(i)
 
-# for i in range(10):
-#     for j in range(10):
-#         print(i, end="")
-#     print("")
+def tugas(a,b): #parameter pak awang
+    for i in range(b):
+        print(a, end="")
+    print()
+tugas('@',9)
+tugas('%',15)
+tugas('@',30)
 
-# for i in range(1, 10):
+
+# for i in range(1, 5):
+#     for j in range(1,i+1,):
+#         print(i, end="")
+#     # print("")
+#     print(" =", i*i)
+
+# def tugas('@',7)
+    
+
+# for i in range(1):
 #     for j in range(1, i+1):
-#         print("@", end=" ")
+#         print("1", end=" ")
 #     print("")
 
 #WHILE LOOP
@@ -55,17 +68,17 @@
 
 # print("Program selesai.")
 
-while True:
-    print("MENU")
-    print("1. fitur 1")
-    print("2. fitur 2")
-    opsi=int(input("Masukkan opsi: "))
-    if opsi==1:
-        print("1. Fitur 1")
-    elif opsi==2:
-        print("2. Fitur 2")
-    elif opsi==3:
-        print("2. Fitur 2")
-        break
-    else:
-        print("Pilihan invalid")
+# while True:
+#     print("MENU")
+#     print("1. fitur 1")
+#     print("2. fitur 2")
+#     opsi=int(input("Masukkan opsi: "))
+#     if opsi==1:
+#         print("1. Fitur 1")
+#     elif opsi==2:
+#         print("2. Fitur 2")
+#     elif opsi==3:
+#         print("2. Fitur 2")
+#         break
+#     else:
+#         print("Pilihan invalid")
