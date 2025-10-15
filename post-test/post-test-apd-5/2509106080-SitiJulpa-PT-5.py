@@ -106,7 +106,6 @@ while True:
     ==============================================
     """)
     menu=int(input("\n(Silahkan pilih opsi 1-5): "))
-    # input("\nTekan ENTER untuk kembali ke menu..."); os.system(clear_cmd)
 
 #READ DATA
     if menu==1:
